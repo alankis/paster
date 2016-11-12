@@ -5,9 +5,11 @@ class Paste < ActiveRecord::Base
     self.paste_url
   end
 
+  private
+  
   #Generate some random string what we will use as random url
   def generate_paste_url
     self.paste_url = SecureRandom.hex(8)
   end
-  
+
 end

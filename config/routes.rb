@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'pastes#new'
 
-  resources :pastes
+  resources :pastes, param: :paste_url, path: ""
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

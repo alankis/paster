@@ -1,7 +1,7 @@
 class PastesController < ApplicationController
   def show
-    #@paste = Paste.find(params[:id])
-    render plain: @paste
+    @paste = paste
+    #render plain: @paste
   end
 
   def new
@@ -17,5 +17,9 @@ class PastesController < ApplicationController
   private
     def paste_params
       params.require(:paste).permit(:paste_content)
+    end
+
+    def paste
+      @paste = Paste.find_by(paste_url: params[:paste_url])
     end
 end
