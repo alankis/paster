@@ -1,11 +1,9 @@
-<h1>New paste</h1>
 <%= form_for :paste, url: pastes_path do |f| %>
-<p>
-  <%= f.label :paste_content %>
-  <%= f.text_area :paste_content %>
-</p>
 
-<p>
+  <%= f.text_area :paste_content, spellcheck: false %>
+
+
+
   <%= f.submit %>
-</p>
+
 <% end %>
