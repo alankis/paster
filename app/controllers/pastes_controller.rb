@@ -1,8 +1,9 @@
 class PastesController < ApplicationController
   def show
-    @paste = Paste.find(params[:id])
+    #@paste = Paste.find(params[:id])
+    render plain: @paste
   end
-  
+
   def new
   end
 
