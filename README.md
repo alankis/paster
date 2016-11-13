@@ -27,7 +27,8 @@ completely with Ruby language and Ruby on Rails framework.
 
 # To do
 Short list of further tasks:
-- [ ] Fix strange margin issue on first line of higlighted code
+- [x] Fix strange margin issue on first line of higlighted code
+- [ ] Fix other CSS margin issues (New -> Save, see the difference)
 - [ ] Create project logo and favicon
 - [ ] Add 'New paste' button
 - [ ] Add some styling to 'New paste' and 'Save paste'
