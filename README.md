@@ -1,28 +1,37 @@
-== README
+# ThePaster
+ThePaster is paste.servergur.us pastebin clone with syntax higlighting.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Prerequsites
+This quick guide assumes that you have at least Ruby 2.1.3 and Rails 4.2.6
 
-Things you may want to cover:
+# Getting started
+Follow this quick'n'dirty instructions to obtain a copy of code on your local system.
 
-* Ruby version
+```Shell
+git clone https://github.com/alankis/paster.git
 
-* System dependencies
+# Deployment
+You can simply run ThePaster with built in Rails application server.
 
-* Configuration
+# Built with 
+- [highlight.js](https://github.com/isagalaev/highlight.js) JavaScript syntax higlighter
 
-* Database creation
+# Authors
+- Alan Kis - Initial work
 
-* Database initialization
+# License
 
-* How to run the test suite
+# Motivation 
+Idea behind paster is to built own self hosted clutter free pastebin, like guys on paste.servergur.us is
+completely with Ruby language and Ruby on Rails framework.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+# To do
+Short list of further tasks:
+- [ ] Create project logo and favicon
+- [ ] Add 'New paste' button
+- [ ] Add some styling to 'New paste' and 'Save paste'
+- [ ] Add line numbers to pastes#show view
+- [ ] Create cron task to empty all pastes on desired intervals, 24 hours maybe?
+- [ ] Update README.md
+- [ ] Create GIF animation of ThePaster in action ;)
+- [ ] Anything else that comes on my mind 
