@@ -12,6 +12,8 @@
  *
  *= require_tree .
  *= require_self
+ * Require /vendor/assets/sytlesheets/solarized-dark.css
+ *= require solarized-dark.css
  */
  * {
      -webkit-box-sizing: border-box;

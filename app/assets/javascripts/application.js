@@ -13,4 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+// Load higlight.pack.js from /vendor/assets/javascripts/highlight.pack.js
+//= require highlight.pack.js
+//= require show/show
 //= require_tree .
