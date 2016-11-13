@@ -9,7 +9,7 @@ Follow this quick'n'dirty instructions to obtain a copy of code on your local sy
 
 ```Shell
 git clone https://github.com/alankis/paster.git
-
+```
 # Deployment
 You can simply run ThePaster with built in Rails application server.
 
