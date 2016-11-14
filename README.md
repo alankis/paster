@@ -15,9 +15,10 @@ You can simply run ThePaster with built in Rails application server.
 
 # Built with 
 - [highlight.js](https://github.com/isagalaev/highlight.js) JavaScript syntax higlighter
+- [highlightjs-line-numbers.js](https://github.com/wcoder/highlightjs-line-numbers.js) Line numbers plugin for Highlight.js
 
 # Authors
-- Alan Kis - Initial work
+- [Alan Kis](https://github.com/alankis) - Initial work
 
 # License
 
@@ -27,11 +28,14 @@ completely with Ruby language and Ruby on Rails framework.
 
 # To do
 Short list of further tasks:
-- [ ] Create project logo and favicon
+- [x] Fix strange margin issue on first line of higlighted code
+- [x] Fix other CSS margin issues (New -> Save, see the difference)
+- [x] Add line numbers to pastes#show view
 - [ ] Add 'New paste' button
 - [ ] Add some styling to 'New paste' and 'Save paste'
-- [ ] Add line numbers to pastes#show view
+- [ ] Create project logo and favicon
 - [ ] Create cron task to empty all pastes on desired intervals, 24 hours maybe?
-- [ ] Update README.md
+- [ ] More friendly paster url maybe? Ehm, forgery gem?
 - [ ] Create GIF animation of ThePaster in action ;)
 - [ ] Anything else that comes on my mind 
+- [ ] Update README.md
