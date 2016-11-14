@@ -23,7 +23,7 @@ You can simply run ThePaster with built in Rails application server.
 # License
 
 # Motivation 
-Idea behind paster is to built own self hosted clutter free pastebin, like guys on paste.servergur.us is
+Idea behind paster is to built own self hosted clutter free pastebin, like one on  paste.servergur.us is, but
 completely with Ruby language and Ruby on Rails framework.
 
 # To do
