@@ -28,11 +28,11 @@ completely with Ruby language and Ruby on Rails framework.
 # To do
 Short list of further tasks:
 - [x] Fix strange margin issue on first line of higlighted code
-- [ ] Fix other CSS margin issues (New -> Save, see the difference)
+- [x] Fix other CSS margin issues (New -> Save, see the difference)
+- [ ] Add line numbers to pastes#show view
 - [ ] Create project logo and favicon
 - [ ] Add 'New paste' button
 - [ ] Add some styling to 'New paste' and 'Save paste'
-- [ ] Add line numbers to pastes#show view
 - [ ] Create cron task to empty all pastes on desired intervals, 24 hours maybe?
 - [ ] Update README.md
 - [ ] Create GIF animation of ThePaster in action ;)
