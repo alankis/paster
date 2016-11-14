@@ -15,9 +15,10 @@ You can simply run ThePaster with built in Rails application server.
 
 # Built with 
 - [highlight.js](https://github.com/isagalaev/highlight.js) JavaScript syntax higlighter
+- [highlightjs-line-numbers.js](highlightjs-line-numbers.js) Line numbers plugin for Highlight.js
 
 # Authors
-- Alan Kis - Initial work
+- [https://github.com/alankis](Alan Kis) - Initial work
 
 # License
 
