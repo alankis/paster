@@ -4,7 +4,9 @@
 
 
 
-  <%= f.submit %>
-  <%= link_to "New paste", /, :method => :get  %>
+  <%= button_tag(type: "submit", id: "save-paste-button") do %>
+    <i class="fa fa-floppy-o" aria-hidden="true"></i>
+  <% end %>
 
 <% end %>
+<%= link_to "New paste", root_path, id: "new-paste-button"  %>
